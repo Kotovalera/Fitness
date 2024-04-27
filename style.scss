@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header-fon {
+    background: black;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        justify-content: left;
+        .seti{
+            margin: -55px;
+            margin-left: 260px;
+            .geo {
+                margin-left: 20px;
+            }
+        }
+}
+    nav {
+        display: flex; 
+        margin: 30px;
+    }
+        li {
+            list-style-type: none;
+            color: white;
+            margin-left: 30px;
+            
+        }
+        a {
+            background-color: red;
+            margin-left: 30px;
+        }
+}
+
+.main-fon {
+    background: black;
+}
+
+.main-glav {
+    display: flex;
+    justify-content: space-between;
+    .main-text {
+        flex-direction: column;
+    }
+    h4 {
+     color: #E7490F;
+    }
+    h3 {
+        color: white;
+    }
+    p {
+        color: white;
+    }
+}
+
+.advan {
+    display: flex;
+    flex-direction: column;
+    h4 {
+        color: #E7490F;
+    }
+}
