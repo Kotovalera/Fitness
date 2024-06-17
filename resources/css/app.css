@@ -176,7 +176,7 @@ body {
   
   .forma-fon {
     background-image: url(img/bg\ \(1\).png);
-    color: white;
+    color: rgb(255, 255, 255);
   }
   .forma-fon h2 {
     display: flex;
